@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets } from "@mui/icons-material";
+import { Mail, Notifications, Park, Pets } from "@mui/icons-material";
 import {
   Toolbar,
   styled,
@@ -50,7 +50,7 @@ function Navbar() {
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
           User Interface
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <Park sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>
