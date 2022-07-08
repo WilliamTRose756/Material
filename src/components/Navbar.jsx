@@ -48,7 +48,7 @@ function Navbar() {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+          User Interface
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
