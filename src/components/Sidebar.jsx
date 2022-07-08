@@ -13,7 +13,7 @@ import GroupIcon from "@mui/icons-material/Group";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 
-function Sidebar() {
+function Sidebar({ mode, setMode }) {
   return (
     <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position="fixed">
@@ -23,7 +23,7 @@ function Sidebar() {
               <ListItemIcon>
                 <Home />
               </ListItemIcon>
-              <ListItemText primary="Homepage" />
+              <ListItemText primary="Home" />
             </ListItemButton>
           </ListItem>
 
@@ -50,7 +50,7 @@ function Sidebar() {
               <ListItemIcon>
                 <StorefrontIcon />
               </ListItemIcon>
-              <ListItemText primary="Marketplace" />
+              <ListItemText primary="Market" />
             </ListItemButton>
           </ListItem>
 
@@ -86,7 +86,9 @@ function Sidebar() {
               <ListItemIcon>
                 <ModeNight />
               </ListItemIcon>
-              <Switch />
+              <Switch
+                onChange={(e) => setMode(mode === "light" ? "dark" : "light")}
+              />
             </ListItemButton>
           </ListItem>
         </List>

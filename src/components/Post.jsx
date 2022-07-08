@@ -16,7 +16,7 @@ import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 
 function Post() {
   return (
-    <Card sx={{ margin: 5 }}>
+    <Card sx={{ margin: "5" }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -39,9 +39,11 @@ function Post() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+          facere libero nam eius qui, quod corporis, nulla magni quo quidem
+          doloribus! Temporibus, ratione omnis obcaecati ducimus laborum
+          numquam, modi aperiam, tenetur quaerat quos nisi perspiciatis nemo ea
+          corporis architecto pariatur!
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
